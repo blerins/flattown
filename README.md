@@ -1,50 +1,15 @@
-flatlandia
-==========
+# flattown
 
-Vim colorscheme based on flatland with Airline integration. Intended for use in MacVim. Based on the excellent https://github.com/thinkpixellab/flatland
+Vim colorscheme with [Airline](https://github.com/bling/vim-airline) integration. Forked from [flatlandia](https://github.com/jordwalke/flatlandia)
 
+## Installation
 
-<img src="./images/flatlandia_airline.png" />
+You may use [Vim Addon Manager](https://github.com/MarcWeber/vim-addon-manager) for installation.
 
+    VAMActivate github:blerins/flattown
 
-- Flatlandia is even flatter than flatland.
-- Flatlandia also includes a matching `vim-airline` theme.
-- JSDoc comment highlighting.
-- Flatlandia sometimes deviates from flatlands choice of colors.
+## Usage
 
-**Installation**
+Don't forget to add on your `.vimrc`
 
-- If you want airline support, ensure that that `airline` is installed, then install `flatlandia` (this plugin) using `Vundle` or `NeoBundle`.
-
-
-```vim
-" Using Vundle
-Bundle 'bling/vim-airline'
-Bundle 'jordwalke/flatlandia'
-
-" Or if using NeoBundle(recommended)
-NeoBundle 'bling/vim-airline'
-NeoBundle 'jordwalke/flatlandia'
-```
-
-- To install the application icon, open the `.icns` file in Mac Preview, click on the image and select all (`CMD+a`). Find MacVim in `/Applications`, click once on it and press `CMD+i`. Click on the little icon in that info window, then hit `CMD+v`. Restart MacVim.
-
-
-**Application Icon**
-
-<img src="./images/ApplicationIconScreenshot.png" width=256 height=255/>
-
-**Airline**
-
-<img src="./images/flatlandia_airline.png" />
-
-**Completion**
-<img src="./images/flatlandia_completion.png" />
-
-**Nerd Side Bar**
-<img src="./images/flatlandia_nerd.png" />
-
-**Support**
-
-
-Only tested on MacVim, but probably works in other environments. Please send pull requests for 256 terminal support.
+    colorscheme flatlandia
