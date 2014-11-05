@@ -26,6 +26,9 @@ let s:R3 = s:N3 " statusline
 " Inactive mode
 let s:IA = [ '#86898c' , s:N3[1] , 243 , s:N3[3] , '' ]
 
+" Modified
+let s:MA = [ '#ff8700' , '#444444' , 208 , 238 ]
+
 let g:airline#themes#flattown#palette = {}
 
 let g:airline#themes#flattown#palette.accents = {
@@ -33,18 +36,29 @@ let g:airline#themes#flattown#palette.accents = {
       \ }
 
 let g:airline#themes#flattown#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
-
+let g:airline#themes#flattown#palette.normal_modified = {
+      \ 'airline_c': s:MA ,
+      \ }
 
 let g:airline#themes#flattown#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-
+let g:airline#themes#flattown#palette.insert_modified = {
+      \ 'airline_c': s:MA ,
+      \ }
 
 let g:airline#themes#flattown#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
-
+let g:airline#themes#flattown#palette.visual_modified = {
+      \ 'airline_c': s:MA ,
+      \ }
 
 let g:airline#themes#flattown#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
-
+let g:airline#themes#flattown#palette.replace_modified = {
+      \ 'airline_c': s:MA ,
+      \ }
 
 let g:airline#themes#flattown#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#flattown#palette.inactive_modified = {
+      \ 'airline_c': s:MA ,
+      \ }
 
 if !get(g:, 'loaded_ctrlp', 0)
   finish
@@ -53,4 +67,3 @@ let g:airline#themes#flattown#palette.ctrlp = airline#extensions#ctrlp#generate_
       \ [ '#86898c' , '#2c2f33' , 253 , 234 , ''     ] ,
       \ [ '#86898c' , '#36393c' , 253 , 238 , ''     ] ,
       \ [ '#2c2f33' , '#b8d977' , 232 , 253 , 'bold' ] )
-
