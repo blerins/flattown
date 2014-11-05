@@ -16,7 +16,7 @@ You may use [Vim Addon Manager](https://github.com/MarcWeber/vim-addon-manager) 
 
 Don't forget to add on your `.vimrc`
 
-    colorscheme flatlandia
+    colorscheme flattown
 
 # TODO
 
