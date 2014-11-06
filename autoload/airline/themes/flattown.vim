@@ -2,13 +2,13 @@
 
 " Normal mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-let s:N1 = [ '#f0f0f0' , '#4a80ba' , 255 , 67 ] " mode
+let s:N1 = [ '#36393c' , '#5f87d7' , 236 , 68 ] " mode
 let s:N2 = [ '#86898c' , '#36393c' , 253 , 236 ] " info
 let s:N3 = [ '#c6c6c6' , '#444444' , 251 , 238 ] " statusline
 
 " Insert mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-let s:I1 = [ '#f0f0f0' , '#448544' , 255 , 71 ] " mode
+let s:I1 = [ '#36393c' , '#76b976' , 236 , 71 ] " mode
 let s:I2 = s:N2 " info
 let s:I3 = s:N3 " statusline
 
