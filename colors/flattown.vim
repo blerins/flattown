@@ -47,6 +47,7 @@ hi rubyStringDelimiter guifg=#448544 guibg=NONE guisp=NONE gui=NONE ctermfg=28 c
 hi rubyInterpolationDelimiter guifg=#448544 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi rubyRegexp guifg=#ffb454 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi rubyRegexpDelimiter guifg=#ffb454 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
+hi rubyExceptional guifg=#ffd75f guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE cterm=NONE
 
 hi htmltagname guifg=#b7d877 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
 hi htmltag guifg=#b7d877 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
