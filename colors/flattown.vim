@@ -39,6 +39,7 @@ hi PreProc guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE
 hi Define guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
 hi Include guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
 hi Macro guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
+hi Exception guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
 
 hi Conditional guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
@@ -103,7 +104,6 @@ hi PreProc guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE
 hi Visual guifg=NONE guibg=#414549 guisp=#414549 gui=NONE ctermfg=NONE ctermbg=239 cterm=NONE
 "hi MoreMsg -- no settings --
 "hi SpellCap -- no settings --
-hi Exception guifg=#72aaca guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi DiffChange guifg=NONE guibg=#273645 guisp=#273645 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 "hi SpellLocal -- no settings --
