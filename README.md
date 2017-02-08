@@ -19,11 +19,12 @@ Don't forget to add on your `.vimrc`
 
     colorscheme flattown
 
-## Note
+## Notes
 
-This theme is still in progress, it's mainly tested for Ruby on gvim on a Debian Testing system,
+* Check the [atom.io](https://atom.io) version [here](https://github.com/blerins/flattown-syntax)
+* This theme is still in progress, it's mainly tested for Ruby on gvim on a Debian Testing system,
 so it may still change a lot.
-Each change tries to match as much as possible 256 terminal colors.
+* Each change tries to match as much as possible 256 terminal colors.
 
 ## TODO
 
